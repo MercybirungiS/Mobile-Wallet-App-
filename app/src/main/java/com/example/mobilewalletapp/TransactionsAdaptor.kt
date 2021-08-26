@@ -18,6 +18,7 @@ class TransactionsAdaptor (var transactions:List<String>):RecyclerView.Adapter<T
         holder.tvDate.text=currentTransaction.date
         holder.tvReference=currentTransaction.reference
         holder.transactionType=currentTransaction.transaction
+        holder.amount=currentTransaction.amount
 
     }
 

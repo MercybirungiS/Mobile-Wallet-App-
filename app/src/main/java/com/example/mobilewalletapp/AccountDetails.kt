@@ -5,5 +5,5 @@ data class AccountDetails(
     var transaction:String,
     var date:String,
     var amount:Int,
-    var transactionType:String
+    var transactionType:String,
 )
